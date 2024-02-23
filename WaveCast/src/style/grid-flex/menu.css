@@ -1,0 +1,15 @@
+.menu-lateral {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    row-gap: 1rem;
+}
+
+.menu-lateral__logo {
+    justify-self: center;
+}
+
+.menu-lateral__link button {
+    display: flex;
+    align-items: center;
+}
+
